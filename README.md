@@ -44,8 +44,8 @@ A backend REST API for managing a library system — built using **Node.js**, **
 
 ### 📘 Borrow Routes
 
-- **POST** `/api/borrow`  
+- **POST** `/api/borrows`  
   Add a new borrow.
 
-- **GET** `/api/borrow`  
+- **GET** `/api/borrows//summary`  
   Get summary of borrows.
