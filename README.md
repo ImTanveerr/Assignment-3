@@ -36,7 +36,7 @@ A backend REST API for managing a library system — built using **Node.js**, **
 - **POST** `/api/books`  
   Add a new book.
 
-- **PUT** `/api/books/:id`  
+- **PETCH** `/api/books/:id`  
   Update a book by ID.
 
 - **DELETE** `/api/books/:id`  
