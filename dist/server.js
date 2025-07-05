@@ -1,19 +1,4 @@
 "use strict";
-/*import mongoose from 'mongoose';
-import dotenv from 'dotenv';
-import app from './app';
-
-dotenv.config();
-
-const port = 5000;
-const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/libraryDB';
-
-mongoose.connect(uri)
-  .then(() => {
-    console.log('MongoDB connected');
-    app.listen(port, () => console.log(`Server running on port ${port}`));
-  })
-  .catch(err => console.error('Connection failed:', err));*/
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
