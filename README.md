@@ -49,3 +49,10 @@ A backend REST API for managing a library system — built using **Node.js**, **
 
 - **GET** `/api/borrows//summary`  
   Get summary of borrows.
+  
+## 🌐 CORS Configuration
+
+The backend is configured to allow cross-origin requests from the following origins:
+
+```js
+origin: ['http://localhost:5174', 'https://frontend-three-neon-81.vercel.app']
